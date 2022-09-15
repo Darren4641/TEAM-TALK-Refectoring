@@ -1,0 +1,33 @@
+.root {
+    -fx-font-family: sans-serif;
+
+}
+.label{
+    -fx-font-family: sans-serif;
+
+    -fx-text-fill: #d7d6dc;
+}
+.list-view {
+    -fx-background-color: #3d4855;
+    -fx-border-style: solid solid solid solid;
+    -fx-border-color: #d7d6dc;
+}
+.list-cell {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden hidden hidden;
+    -fx-border-color: #d7d6dc;
+    -fx-text-fill: #d7d6dc;
+    -fx-font-size: 17;
+}
+.pane {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden hidden hidden;
+}
+.button {
+    -fx-background-color: #eba576;
+    -fx-text-fill: #3d3d3d;
+    -fx-font-size: 12;
+}
+.button:hover {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}

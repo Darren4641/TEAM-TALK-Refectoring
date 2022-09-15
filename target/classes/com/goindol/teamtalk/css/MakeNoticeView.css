@@ -1,0 +1,35 @@
+.root {
+    -fx-font-family: sans-serif;
+
+}
+.pane {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden hidden hidden;
+}
+.label{
+    -fx-font-family: sans-serif;
+
+    -fx-text-fill: #d7d6dc;
+}
+.text-field {
+    -fx-control-inner-background: #444c5c;
+    -fx-text-fill: #d7d6dc;
+    -fx-focus-color: #d7d6dc;
+    -fx-font-size: 15;
+    -fx-faint-focus-color: transparent ;
+}
+.text-area {
+    -fx-control-inner-background: #444c5c;
+    -fx-text-fill: #d7d6dc;
+    -fx-font-size: 15;
+    -fx-focus-color: #d7d6dc;
+    -fx-faint-focus-color: transparent ;
+}
+.button {
+    -fx-background-color: #eba576;
+    -fx-text-fill: #3d3d3d;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}

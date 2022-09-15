@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="pane" stylesheets="@../css/SignUpView.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.goindol.teamtalk.client.controller.SignupController">
+    <children>
+        <Button layoutX="181.0" layoutY="458.0" prefHeight="30.0" prefWidth="70.0" mnemonicParsing="false" onAction="#registerUserAction" text="Signup" />
+        <TextField fx:id="Nickname" layoutX="127.0" layoutY="327.0" prefHeight="30.0" prefWidth="160.0" promptText="Nickname" />
+        <TextField fx:id="Id" layoutX="128.0" layoutY="363.0" prefHeight="30.0" prefWidth="160.0" promptText="Id" />
+        <PasswordField fx:id="Password" layoutX="127.0" layoutY="399.0" prefHeight="30.0" prefWidth="170.0" promptText="Password" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="119.0" prefHeight="100.0" prefWidth="400.0" text="TEAM - TALK" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="goBackButton" fitHeight="30.0" fitWidth="30.0" layoutX="24.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" styleClass="image-view">
+         <image>
+            <Image url="@../images/goToBack.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

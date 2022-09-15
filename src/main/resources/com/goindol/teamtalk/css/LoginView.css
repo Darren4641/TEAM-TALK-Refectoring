@@ -1,0 +1,39 @@
+.root {
+    -fx-background-color: #3d4855;
+    -fx-font-family: sans-serif;
+
+}
+
+.label {
+    -fx-text-fill: #d7d6dc;
+    -fx-font-family: sans-serif;
+}
+
+.text-field {
+    -fx-background-color: #3d4855;
+    -fx-text-fill: #d7d6dc;
+    -fx-border-color: #d7d6dc;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+.loginbutton {
+    -fx-background-color: #eba576;
+    -fx-text-fill: #3d3d3d;
+    -fx-cursor: hand;
+    -fx-border-radius: 400;
+    -fx-background-radius: 15;
+}
+.loginbutton:hover {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}
+
+.signupbutton {
+    -fx-background-color: #d7d6dc;
+    -fx-text-fill: #3d3d3d;
+    -fx-cursor: hand;
+    -fx-border-radius: 400;
+    -fx-background-radius: 15;
+}
+.signupbutton:hover {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}

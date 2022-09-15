@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="makeNoticeContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" stylesheets="@../css/MakeNoticeView.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.goindol.teamtalk.client.controller.MakeNoticeController">
+   <top>
+      <VBox prefHeight="50.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="pane">
+               <children>
+                  <Label alignment="CENTER" layoutX="1.0" layoutY="17.0" prefHeight="17.0" prefWidth="400.0" text="공지작성">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="pane">
+               <children>
+                  <TextField fx:id="noticeTitle" layoutX="71.0" layoutY="25.0" prefHeight="35.0" prefWidth="300.0" />
+                  <Label layoutX="13.0" layoutY="33.0" text="공지 제목 " />
+               </children>
+            </Pane>
+            <Pane prefHeight="576.0" prefWidth="400.0" styleClass="pane">
+               <children>
+                  <TextArea fx:id="noticeContent" wrapText="true" layoutX="71.0" layoutY="40.0" prefHeight="307.0" prefWidth="300.0" styleClass="text-area" />
+                  <Label layoutX="13.0" layoutY="41.0" text="공지 내용" />
+                  <Button fx:id="complete" layoutX="301.0" layoutY="399.0" mnemonicParsing="false" text="입력 완료" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

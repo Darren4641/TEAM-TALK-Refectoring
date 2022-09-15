@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" stylesheets="@../css/ShowVoteResultView.css" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.goindol.teamtalk.client.controller.ShowVoteResultController">
+    <top>
+        <Pane prefHeight="50.0" prefWidth="400.0" styleClass="pane" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="voteTitle" alignment="CENTER" layoutX="1.0" layoutY="17.0" prefHeight="17.0" prefWidth="400.0" text="투표 현황">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0" styleClass="pane" BorderPane.alignment="CENTER">
+            <children>
+                <ListView fx:id="voteResultList" layoutX="39.0" layoutY="32.0" prefHeight="417.0" prefWidth="323.0" />
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" stylesheets="@../css/MakeVoteView.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.goindol.teamtalk.client.controller.MakeVoteController">
+   <top>
+      <Pane prefHeight="55.0" prefWidth="400.0" styleClass="pane" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="1.0" layoutY="19.0" prefHeight="23.0" prefWidth="400.0" text="투표 생성">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <VBox prefHeight="358.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="400.0" styleClass="pane">
+               <children>
+                  <TextField fx:id="voteTitle" layoutX="105.0" layoutY="16.0" prefHeight="32.0" prefWidth="190.0" />
+                  <Label layoutX="40.0" layoutY="23.0" text="투표 제목" />
+               </children>
+            </Pane>
+            <Pane prefHeight="91.0" prefWidth="400.0" styleClass="pane">
+               <children>
+                  <Label layoutX="40.0" layoutY="37.0" text="투표 항목" />
+                  <TextField fx:id="voteVar" layoutX="105.0" layoutY="35.0" prefHeight="32.0" prefWidth="190.0" />
+                  <Button fx:id="addVoteVarbutton" layoutX="305.0" layoutY="30.0" prefHeight="32.0" mnemonicParsing="false" text="추가" />
+               </children>
+            </Pane>
+            <Pane prefHeight="208.0" prefWidth="400.0" styleClass="pane">
+               <children>
+                  <ListView fx:id="voteVarList" layoutX="105.0" layoutY="4.0" prefHeight="200.0" prefWidth="190.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <Pane prefHeight="200.0" prefWidth="200.0" styleClass="pane" BorderPane.alignment="CENTER">
+         <children>
+            <CheckBox fx:id="isAnonoymous" layoutX="163.0" layoutY="40.0" mnemonicParsing="false" onAction="#selectAnonoymousCheckBox" text="익명투표" />
+            <CheckBox fx:id="isOverLap" layoutX="163.0" layoutY="70.0" mnemonicParsing="false" onAction="#selectOverLapCheckBox" text="중복투표" />
+            <Button fx:id="addVoteButton" layoutX="164.0" layoutY="116.0" mnemonicParsing="false" text="입력 완료" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

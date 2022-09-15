@@ -1,0 +1,36 @@
+.root {
+    -fx-font-family: sans-serif;
+
+}
+.pane {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden hidden hidden;
+}
+.label{
+    -fx-font-family: sans-serif;
+
+    -fx-text-fill: #d7d6dc;
+}
+.text-area {
+    -fx-control-inner-background : #3d4855;
+    -fx-text-fill: #d7d6dc;
+    -fx-font-size: 18;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent ;
+}
+.text-area .text {
+    -fx-line-spacing: 5px;
+}
+.list-view {
+    -fx-background-color: #3d4855;
+    -fx-border-style: solid solid solid solid;
+    -fx-border-color: #d7d6dc;
+}
+.list-cell {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden hidden hidden;
+    -fx-border-color: #d7d6dc;
+    -fx-text-fill: #d7d6dc;
+    -fx-font-size: 18;
+    -fx-min-height: 30;
+}

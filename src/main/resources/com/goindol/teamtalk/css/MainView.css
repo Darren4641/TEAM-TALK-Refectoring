@@ -1,0 +1,95 @@
+.root {
+    -fx-font-family: sans-serif;
+}
+/*윗 공간*/
+.tab-pane .tab-header-area{-fx-padding: 35 0 0 0;}
+
+/*탭 뒷부분 원래 공간*/
+.tab-pane .headers-region {
+    -fx-background-color: #3d4855;
+}
+
+/*탭 뒷부분 전체 공간*/
+.tab-pane .tab-header-background {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #d7d6dc;
+}
+
+/*탭 자체 색깔*/
+.tab {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #d7d6dc;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent ;
+}
+/*탭 선택 시 색깔*/
+.tab:selected {
+    -fx-background-color: #eba576;
+}
+
+
+.list-cell {
+    -fx-background-color: #3d4855;
+}
+
+.list-cell:filled {
+    -fx-background-color: #3d4855;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #d7d6dc;
+    -fx-text-fill: #d7d6dc;
+    -fx-font-size: 18;
+    -fx-cursor: hand;
+}
+
+.list-cell:selected {
+    -fx-background-color: #505a6c;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #505a6c;
+}
+
+.list-view {
+    -fx-background-color: #3d4855;
+    -fx-border-style: solid hidden hidden hidden;
+    -fx-border-color: #d7d6dc;
+}
+
+.scroll-bar {
+    -fx-background-color: #3d4855;
+}
+
+.scroll-pane {
+    -fx-background-color: #3d4855;
+}
+
+.stackpane {
+    -fx-background-color: #3d4855;
+}
+
+.label2 {
+    -fx-font-family: sans-serif;
+    -fx-text-fill: #d7d6dc;
+}
+
+.text-field {
+    -fx-background-color: #505a6c;
+    -fx-text-fill: #d7d6dc;
+}
+.image-view:hover {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}
+.button {
+    -fx-font-family: sans-serif;
+
+    -fx-background-color: #eba576;
+    -fx-text-fill: #3d3d3d;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.7) , 15,0,0,1 );
+}
