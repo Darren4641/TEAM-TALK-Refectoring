@@ -10,7 +10,7 @@ com.goindol.teamtalk.server.MainServer
 VM Option 각각 추가
 <br/>
 <br/>
-+ openjdk 18 사용
++ Java version : openjdk 18 사용
 + openjfx-18.0.1 다운로드
 <br/>
 <br/>
