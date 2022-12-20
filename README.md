@@ -32,7 +32,8 @@ VM Option 각각 추가
 
 <img align="left" src="https://user-images.githubusercontent.com/74559561/208594826-ab4c5799-f272-4259-85f1-56fb7f107097.png">
 <img align="right" src="https://user-images.githubusercontent.com/74559561/208594846-b7c6fd3a-ae37-48fe-a88b-70430b81dd5c.png">
-<br/><br/><br/>
+로그인 및 회원가입 기능
+<br/>
 <img align="left" src="https://user-images.githubusercontent.com/74559561/208594864-aa1cf125-3937-45aa-a9ea-da68d1522c21.png">
 <img align="right" src="https://user-images.githubusercontent.com/74559561/208594870-13908a33-6c7f-4409-92ab-3f6a38c00ea1.png">
 <br/><br/><br/>
