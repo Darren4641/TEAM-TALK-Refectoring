@@ -11,7 +11,7 @@ VM Option 각각 추가
 <br/>
 <br/>
 + Java version : openjdk 18 사용
-+ openjfx-18.0.1 다운로드 <a href="https://drive.google.com/file/d/1gGpy4ZMOhNgA1Oe039hVru9_9P5xuUNd/view?usp=sharing">
++ <a href="https://drive.google.com/file/d/1gGpy4ZMOhNgA1Oe039hVru9_9P5xuUNd/view?usp=sharing">openjfx-18.0.1 다운로드 </a>
 <br/>
 <br/>
 --module-path
